@@ -11,11 +11,11 @@ body {
 	
 }
 .container {
-	
+	position: relative;
 }
 .jumbotron {
 	padding:0;
-	background-color: rgba(90,23,8,0.6);
+	background-color: rgba(83,116,61,0.6);
 	height: 85px;
 	z-index: 150;
 	box-shadow: 1px 1px 1px;
@@ -24,7 +24,7 @@ body {
 }
 .logo {
 	position: absolute;
-	left:14.3%;
+	left:0;
 	top:0;
 }
 .logo img {
@@ -88,21 +88,9 @@ nav ul li a {
 nav ul li a:hover {
 	text-decoration: none;
 	color: white;
-
-	
 }
 nav ul li:hover {
-
 	background-color: rgba(74,102,32, 0.93);
-	color:black;
-	border: 2px solid black;
-	width:200px;
-	border-radius: 2px;
-	position: relative;
-
-	
-
-	
 }
 .close-close {
 	display: none;
@@ -132,37 +120,39 @@ hr {
 .cta {
 	position: absolute;
 	text-align: center;
-	bottom:35px;
-	right:25%;
+	/*right:18%;
+	bottom:15%;*/
+	top:50%;
+	left:50%;
+	
 }
 .cta a {
-	background-color: #B3AE02;
+	background-color:  rgba(179, 174, 2, 1.0);
 	font-size: 110%;
-	border:5px solid rgba(74,102,32, 0.5);
+	border:5px solid rgba(74,102,32, 1.0);
 	margin:5px;
-	padding:25px;
+	padding:20px;
 	line-height: 200px;
 	color:black;
 	border-radius: 3% 50%;
-	-webkit-transition: all .5s ease-out;
+	-webkit-transition: all .5s ;
 }
 .cta a:hover {
-	border:5px solid #B3AE02;
+	border:5px solid rgba(179, 174, 2, 1.0);
 	background-color: rgba(74,102,32, 1.0);
 	box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
 	text-decoration: none;
 
 
 }
-.content{
-	z-index: 50;
-}
+
 .row {
 	background-color: rgba(30,103,97,0.9);
 	z-index: 100;
+	padding:15px 0;
 }
 footer {
-
+	clear:both;
 }
 footer .col-lg-12 {
 	background-color: rgba(0,83,102, 0.9);
