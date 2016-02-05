@@ -122,9 +122,8 @@ hr {
 	text-align: center;
 	/*right:18%;
 	bottom:15%;*/
-	top:50%;
-	left:50%;
-	
+	top:25%;
+	left:25%;
 }
 .cta a {
 	background-color:  rgba(179, 174, 2, 1.0);
@@ -142,25 +141,31 @@ hr {
 	background-color: rgba(74,102,32, 1.0);
 	box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
 	text-decoration: none;
-
-
 }
-
-.row {
-	background-color: rgba(30,103,97,0.9);
+.row.content {
 	z-index: 100;
 	padding:15px 0;
+
+}
+.row {
+	background-color: rgba(30,103,97,0.9);
+}
+.row ul {
+	margin-left: 2em;
 }
 footer {
-	clear:both;
+	
 }
 footer .col-lg-12 {
 	background-color: rgba(0,83,102, 0.9);
 	text-align: center;
 	min-height:75px;
 	vertical-align: 75px;
-}
 
+}
+.center {
+	text-align: center;
+}
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
