@@ -8,7 +8,12 @@ body {
 	color:black;
 	background-color: rgba(242,240,222,0.2);
 	line-height: 1.5em;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
 	
+}
+body h1, body h2, body h3, body h4 {
+	font-family: 'Raleway', sans-serif;
 }
 .container {
 	position: relative;
@@ -152,6 +157,9 @@ hr {
 }
 .row ul {
 	margin-left: 2em;
+}
+.row.even {
+	background-color: rgba(36,122,115,0.9);
 }
 footer {
 	
