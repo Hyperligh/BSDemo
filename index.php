@@ -54,6 +54,7 @@
 		<div class="hero cf">
 			<img class="img-responsive" src="photos/hero-3.jpg" alt="">
 		</div>
+		
 		<div class="cta cf">
 				<h3><a href="#">Contact Me</a><a href="themes.html">Visit Themes</a></h3>
 			</div>	
