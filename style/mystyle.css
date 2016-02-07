@@ -153,6 +153,8 @@ hr {
 }
 .row {
 	background-color: rgba(30,103,97,0.9);
+	padding-right: 50px !important;
+	padding-left: 50px !important;
 }
 .row ul {
 	margin-left: 2em;
@@ -160,8 +162,9 @@ hr {
 .row.even {
 	background-color: rgba(36,122,115,0.9);
 }
-footer {
-	
+footer .row {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 footer .col-lg-12 {
 	background-color: rgba(0,83,102, 0.9);
